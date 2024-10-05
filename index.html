@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container" style="margin-top: 70px;">
+        <div class="row">
+            <div class="col-lg-9 First-display">
+                <div>
+                    <h1>Your Choise :</h1>
+                    <img src="./assest/pictures/paper.png" class="img-style">
+                    <img src="./assest/pictures/scissors.png" class="img-style">
+                    <img src="./assest/pictures/stone.png" class="img-style">
+                </div>
+                <div>
+                    <h1>Cpu Choose :</h1>
+                    <img src="./assest/pictures/paper.png" class="cpu-style hidden">
+                    <img src="./assest/pictures/scissors.png" class="cpu-style hidden">
+                    <img src="./assest/pictures/stone.png" class="cpu-style hidden">
+                </div>
+            </div>
+            <div class="col-lg-3 Secound-display">
+                <h1>Result :</h1>
+                <div class="result">
+                    <h3>You :</h3>
+                    <h6 id="userresult">0</h6>
+                </div>
+                <div class="result">
+                    <h3>Cpu :</h3>
+                    <h6 id="cpuresult">0</h6>
+                </div>
+                <button onclick="refresh()">Refresh</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assest/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

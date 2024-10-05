@@ -1,0 +1,42 @@
+/* This is fot left items*/
+.First-display{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid darkgray;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 5px darkgray;
+      
+}
+/* This is fot left items*/
+/*This is for right items */
+.Secound-display{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.result> h6{
+font-size: 40px;
+margin-left: 10px;
+}
+
+/*This is for right items */
+.img-style , .cpu-style{
+    width: 200px;
+    height: 200px;
+}
+.hidden{
+    display: none;
+}
